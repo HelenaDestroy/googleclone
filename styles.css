@@ -1,0 +1,33 @@
+header {
+    width: 100%;
+    height: 20%;
+}
+nav {
+position: relative;
+display: flex;
+list-style: none;
+margin-left: 420px;
+}
+main {
+    width: 100%;
+    height: 60%;
+}
+.main-img, .form {position: relative; display:flex; 
+}
+footer {
+     display: inline-block;
+    position:relative;
+    width: 100%;
+    height: 20%;
+}
+.main-foot {
+    position: block; display:block; background-color: rgb(233, 227, 227);
+}
+.left-footer {
+position: relative;
+display: flex;
+}
+.right-footer  {
+    position: relative;
+display: flex;
+}
