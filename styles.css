@@ -1,11 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 13px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
-a{
-    text-decoration: none;
+a {text-decoration: none;
+   cursor: pointer;
 }
 header {
     width: 100%;
@@ -28,23 +28,38 @@ nav .nav-right-section a {
     margin-right: 10px;
     color: #0000000;
 }
-.nav-icon {
-    background-image:https://static.thenounproject.com/png/756729-200.png;
+nav .nav-right-section .nav-icon {
+background-image: url('https://static.thenounproject.com/png/756729-200.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+width: 25px;
+height: 25px;
+cursor:pointer;
 }
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+
 main {
     width: 100%;
     height: 60%;
+    display:flex;
+    justify-content: center;
+    
 }
-.main-img, .form {position: relative; display:flex; 
+.main-img .form { 
 }
 footer {
-     display: inline-block;
+     display: flex;
     position:relative;
     width: 100%;
     height: 20%;
 }
 .main-foot {
-    position: block; display:block; background-color: rgb(233, 227, 227);
+    display:flex; background-color: rgb(233, 227, 227);
 }
 .left-footer {
 position: relative;
